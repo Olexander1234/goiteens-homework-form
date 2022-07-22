@@ -811,4 +811,9 @@ margin-top: -70px;
 
 
 
- 
+ .form
+ .fields
+ .fiend{
+    display: flex;
+
+ }
