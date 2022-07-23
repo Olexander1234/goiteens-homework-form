@@ -97,6 +97,10 @@ letter-spacing: 0.02em;
 .contact:hover{
     color: #2196F3;
 }
+.nav-list link{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 /* геометрія всього сайту з тегами contairn and section  */
 .contairn{
     width: 1200px;
@@ -149,7 +153,8 @@ letter-spacing: 0.02em;
    }
 
    
-.knopka{
+   .knopka{
+    border: 0;
     color: aliceblue;
     background: #2196F3;
     display: inline-block;
@@ -361,7 +366,12 @@ margin-bottom: 30px;
 }
 /* футер */
 
-
+.footer{
+   padding-top: 60px;
+   padding-bottom: 60px;
+ 
+    
+}
 .footer li + li {
     margin-top: 5px;
 }
@@ -439,13 +449,22 @@ color: #FFFFFF;
 /* блок приєднуйтесь та соціальні мережі */
 
 .coorent{
-    fill:  #AFB1B8;;
+    fill: currentColor;
+   
+}
+.social-link:hover
+{
+  color:#FFFFFF;
+  background-color:#2196F3;
 }
 
 
 
-.coorent:hover{
-    fill: #FFFFFF;
+.coorent:hover
+{
+fill: #EEEEEE;
+    color: currentColor;
+
 
 }
 .join .social-link{
@@ -455,6 +474,7 @@ color: #FFFFFF;
 .join .social-link:hover,
 .join .social-link:focus{
 background-color: #2196F3;
+
 
 }
 .join{
@@ -530,7 +550,7 @@ background-color: #2196F3;
 }
 
 .liter-link{
-    background-color:#EEEEEE;
+    background: #F5F4FA;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -701,7 +721,13 @@ a{
  .nav-list .link-item .curent{
     color: #2196F3;
 }
-
+body{
+    fill:#757575;
+    background-color: #ffffff;
+}
+ul{
+    padding: 0;
+}
 
 
 
