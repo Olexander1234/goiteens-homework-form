@@ -69,8 +69,13 @@ letter-spacing: 0.02em;
 .link-list li + li{
     margin-left: 50px;
 }
-
-
+.contact:hover{
+    color: #2196F3;
+    fill: #2196F3;
+}
+.contact{
+    fill: currentColor;
+}
 .link-king{ 
     color: #757575;
     display: flex;
@@ -84,7 +89,8 @@ letter-spacing: 0.02em;
 
 }
 .link-king:hover{
-    color:#2196F3 ;
+   color: #2196F3;
+   fill: currentColor;
 }
 .contact{
     margin-right: 10px;
@@ -192,7 +198,7 @@ letter-spacing: 0.02em;
 
     width: 528px;
     height: 581px;
-
+padding: 40px;
     background-color: #F5F4FA;
 
 transform: translate(-50%, -50%); scale(1);
@@ -449,8 +455,11 @@ color: #FFFFFF;
 /* блок приєднуйтесь та соціальні мережі */
 
 .coorent{
-    fill: currentColor;
+   fill: currentColor;
    
+}
+.social-link{
+    color: #AFB1B8;
 }
 .social-link:hover
 {
@@ -460,13 +469,7 @@ color: #FFFFFF;
 
 
 
-.coorent:hover
-{
-fill: #EEEEEE;
-   
 
-
-}
 .join .social-link{
     background-color: rgba(255, 255, 255, 0.1); /* #2f303a */
     color: #F5F4FA;
@@ -761,10 +764,70 @@ color: #212121;
     resize: none;
 }
 
+/* форма */
+.form, .fields, .fiend{
+    display: flex;
+    flex-direction: column;
+}
+.fiend {
+    position: relative;
+    text-align: start;
+ 
+}
+.field{
+margin-bottom: 20px;
+}
+.fiend-label{
+    margin-bottom: 30px;
+}
+
+.title{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+.field:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.form-fiend,
+.textarea{
+    padding-left: 42px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
 
 
+.textarea{
+    resize: none;
+    height: 120px;
+    font-size: 14px;
+    padding: 12px 16px ;
+}
+.form-icon{
+    position: absolute;
+ 
+}
 
-
+.fiend label{
+    font-size: 12px;
+    margin-bottom: 4px
+}
+.btn{
+    width: 200px;
+ 
+ 
+}
 
 
 
