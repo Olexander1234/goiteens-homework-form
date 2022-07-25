@@ -71,7 +71,7 @@ letter-spacing: 0.02em;
 }
 .contact:hover{
     color: #2196F3;
-    fill: #2196F3;
+   
 }
 .contact{
     fill: currentColor;
@@ -90,11 +90,11 @@ letter-spacing: 0.02em;
 }
 .link-king:hover{
    color: #2196F3;
-   fill: currentColor;
+   
 }
 .contact{
     margin-right: 10px;
-    fill: #757575;
+  
     margin-left: -20px;
     
 
@@ -112,7 +112,7 @@ letter-spacing: 0.02em;
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 0px;
+    margin-top: 0;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -120,6 +120,7 @@ letter-spacing: 0.02em;
     padding-top: 94px;
     padding-bottom: 94px;
     margin-top: 0;
+    margin-bottom: 0;
     }
 /* блок герой */
 
@@ -143,6 +144,7 @@ letter-spacing: 0.02em;
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
+   
 }
 .hero-section1{
     background-color: #2F303A;
@@ -554,6 +556,8 @@ background-color: #2196F3;
 }
 
 .liter-link{
+    display: inline-block;
+    justify-content: center;
     background: #F5F4FA;
     font-family: 'Roboto';
 font-style: normal;
