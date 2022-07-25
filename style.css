@@ -144,6 +144,8 @@ letter-spacing: 0.02em;
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
+     width: auto;
+     height: auto;
    
 }
 .hero-section1{
@@ -161,7 +163,7 @@ letter-spacing: 0.02em;
    }
 
    
-   .knopka{
+     .button{
     border: 0;
     color: aliceblue;
     background: #2196F3;
@@ -343,9 +345,10 @@ margin-bottom: 30px;
 .zxdw{
     display: flex;
 }
+
 .kvadrat{
 
-    fill: currentColor;
+  
     
     width: 170px;
     height: 90px;
@@ -358,7 +361,7 @@ margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    fill: currentColor;
+  
     
     
 }
@@ -367,18 +370,19 @@ margin-bottom: 30px;
     color: #2196F3;
 }
 .cust-icon{
-    fill: #AFB1B8;
+   
+    
+  
 }
 .cust-icon:hover{
     fill: #2196F3;
-    
 }
+
+
 /* футер */
 
 .footer{
-   padding-top: 60px;
-   padding-bottom: 60px;
- 
+    
     
 }
 .footer li + li {
@@ -387,6 +391,14 @@ margin-bottom: 30px;
 .footer ul + ul {
 margin-top: 20px;
     
+}
+.foter-items{
+    padding-top: 60px;
+    padding-bottom: 10px;
+  margin-top: 60px;
+  
+    display: flex;
+    align-items: baseline;
 }
 .vip{
    
@@ -777,6 +789,8 @@ color: #212121;
 .fiend {
     position: relative;
     text-align: start;
+    color:  #757575;
+    
  
 }
 .field{
@@ -833,7 +847,13 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
  
 }
-
+.fiend-link{
+    margin-top: 20px;
+}
+.contract{
+    color: #2196F3;
+    
+}
 
 
 
