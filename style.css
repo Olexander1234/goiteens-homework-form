@@ -107,6 +107,27 @@ letter-spacing: 0.02em;
     padding-top: 32px;
     padding-bottom: 32px;
 }
+.nav-list, .link, .curent{
+    color:#2196F3;
+  }
+  .nav-list, .link, .curent::after{
+    position: relative;
+    content: "";
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+
+    background-color: var(--accent-color);
+
+    border-radius: 4px;
+
+  }
+    
+  
+
+ 
 /* геометрія всього сайту з тегами contairn and section  */
 .contairn{
     width: 1200px;
@@ -341,7 +362,6 @@ margin-bottom: 30px;
   
  
 /* постійні клієнти */
-
 .zxdw{
     display: flex;
 }
@@ -350,6 +370,24 @@ margin-bottom: 30px;
 
   
     
+    
+  
+    
+    
+}
+.icons-klient:hover{
+    border: 1px solid #2196F3;
+    color: #2196F3;
+}
+.cust-icon{
+   
+    fill: currentColor;
+  
+}
+.cust-icon:hover{
+    fill: #2196F3;
+}
+.icons-klient{
     width: 170px;
     height: 90px;
     left: 215px;
@@ -362,26 +400,17 @@ margin-bottom: 30px;
     justify-content: center;
     align-items: center;
   
-    
-    
+    color: #AFB1B8;
 }
-.kvadrat:hover{
-    border: 1px solid #2196F3;
-    color: #2196F3;
-}
-.cust-icon{
-   
-    
-  
-}
-.cust-icon:hover{
-    fill: #2196F3;
-}
+
+
 
 
 /* футер */
 
-.footer{
+.footer-item{
+    padding-top: 60px;
+    padding-bottom: 60px;
     
     
 }
@@ -871,7 +900,12 @@ outline: none;
 .fiend-checkbox:focus-within + .checkbox-icon{
     border: 2px solid #2196F3;
 }
+
+  .checkbox-input{
+    margin-top: 10px;
+  }
 .checkbox-icon{
+   
     display: inline-block;
     margin-right: 8px;
     padding: 0;
